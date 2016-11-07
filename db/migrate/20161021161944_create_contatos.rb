@@ -4,8 +4,9 @@ class CreateContatos < ActiveRecord::Migration
       t.string :nome
       t.string :telefone
       t.string :email
-
-      t.timestamps null: false
+      t.string :endereco
+       
+      t.timestamps null: false      
     end
   end
 end
